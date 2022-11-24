@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudententryComponent } from './studententry/studententry.component';
 import { StudentviewComponent } from './studentview/studentview.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myroute:Routes=[
   {
     path:"",
@@ -22,7 +23,8 @@ const myroute:Routes=[
   declarations: [
     AppComponent,
     StudententryComponent,
-    StudentviewComponent
+    StudentviewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
